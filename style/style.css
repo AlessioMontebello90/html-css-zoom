@@ -6,71 +6,109 @@
     padding: 0;
 }
 
-
-
 body{
      /* background-color: black;  */
 }
 
-
-
-/* HEADER */
-
-.container-header{
-    width: 100%;
-    height: 40px;
-    background-color: aqua;
+.container{
+    height: 100vw;
+    margin: auto auto;
+    justify-content: center;
 }
-
-.flex-header{
-    display: flex;
-    display: block;
-    text-align: right;
-    
-}
-
-/* MAIN */
-
-.container-call{
-    min-width: 100%;
-    min-height: 800px;
-
-    display: flex;
-
-    background-color: greenyellow;
-
-}
-
-.guests{
-    flex-wrap: wrap;
-
-}
-
-/* FOOTER */
-
-.container-footer{
-    width: 100%;
-    height: 30px;
-    background-color: aqua;
-}
-
-
-
-
-
-
-
-
-
-
-/* UTILS */
 
 .flex{
     display: flex;
 }
-
-/* DEBUG */
-
-.debug{
-    border: 2px dashed red;
+header{
+    width: 100%;
+    position: relative;
+    height: 50px;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+.between{
+    justify-content: space-between;
+}
+
+/* header */
+
+.speacker{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    background-color: grey ;
+    border: 5px;
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+    width: 80px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.zomm{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 3px;
+    margin: 5px auto;
+}
+
+/* main */
+
+
+main{
+    width: 100%;
+    height: 500px;
+}
+
+.box{
+    width: 185px;
+    margin: 5px;
+    height: 85px;
+    background-image: ;
+    position: relative;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+
+footer sub{
+    display: block;
+}
+
+section{
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+    align-self: center;
+}
+
+.end{
+    background-color: grey;
+    height: 60px;
+    color: red;
+    padding: 5px;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
