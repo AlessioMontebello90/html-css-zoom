@@ -7,7 +7,7 @@
 }
 
 body{
-     /* background-color: black;  */
+ background-color: black; 
 }
 
 .container{
@@ -38,8 +38,8 @@ header{
     position: absolute;
     top: 0;
     right: 40px;
-    background-color: grey ;
-    border: 5px;
+    background-color: #4a4a4a ;
+    border-radius: 5px;
     font-size: 10px;
     padding: 3px;
     color: white;
@@ -48,12 +48,12 @@ header{
     margin: 5px auto;
 }
 
-.zomm{
+.zoom{
     position: absolute;
     top: 0;
     right: 0;
-    color: white;
-    background-color: grey;
+    color: #fff;
+    background-color: #4a4a4a;
     border-radius: 5px;
     font-size: 10px;
     padding: 3px;
@@ -72,14 +72,13 @@ main{
     width: 185px;
     margin: 5px;
     height: 85px;
-    background-image: ;
     position: relative;
 }
 
 /* footer */
 
 footer{
-    background-color: black;
+    background-color: #222222;
     height: 80px;
     color: white;
 }
@@ -96,7 +95,7 @@ section{
 }
 
 .end{
-    background-color: grey;
+    background-color: #727171;
     height: 60px;
     color: red;
     padding: 5px;
